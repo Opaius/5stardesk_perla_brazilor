@@ -1,7 +1,7 @@
 .input-group *,
 .modal-content,
 button {
-  border-radius: 1rem;
+  border-radius: 1rem !important;
 }
 .camera_formular img,
 .portfolio-item img {
