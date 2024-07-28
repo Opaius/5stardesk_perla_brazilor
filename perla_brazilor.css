@@ -1,0 +1,197 @@
+.input-group *,
+.modal-content,
+button {
+  border-radius: 1rem;
+}
+.camera_formular img,
+.portfolio-item img {
+  transition: opacity 0.2s ease-in-out;
+}
+.camera_formular img,
+.carousel img,
+.portfolio-item img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+}
+.col-md-3 > div > button,
+.col-md-3 > div > div.input-group button {
+  background-color: var(--accent);
+  transition: scale 150ms ease-in-out;
+}
+.modal-body h3,
+.section-heading {
+  text-transform: none !important;
+}
+:root {
+  --primary: #3a5837;
+  --background: #f6f9f3;
+  --accent: #6fa74a;
+}
+.carousel img,
+.portfolio-item img {
+  margin-bottom: 10px;
+  border-radius: 1rem;
+}
+* {
+  font-family: montserrat !important;
+}
+.modal-dialog {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+#services,
+footer {
+  display: none;
+}
+.page-section,
+body {
+  background-color: #f6f9f3 !important;
+}
+#verifica_disp h2 {
+  margin-bottom: 2rem;
+}
+h1,
+h2,
+h3 {
+  color: #3a5837;
+}
+.portfolio-item img:hover {
+  opacity: 0.5;
+}
+.portfolio-caption {
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.input-group * {
+  margin: 0 10px;
+}
+.daterangepicker td.active {
+  background-color: #3a5837 !important;
+}
+td.in-range {
+  background-color: rgba(200, 226, 184, 0.2) !important;
+}
+.col-md-5 > .row button {
+  background-color: #6fa74a;
+  border: 1px solid #6fa74a;
+}
+.col-md-5 > .row button:hover {
+  background-color: #ffff;
+  color: #6fa74a;
+}
+.camera_formular {
+  padding: 2rem !important;
+}
+.camera_formular img {
+  border-radius: 1rem !important;
+  height: 200px;
+}
+.camera_formular img:hover {
+  opacity: 0.8;
+}
+div.col-md-8.text-left {
+  display: grid;
+}
+div.col-md-8.text-left button {
+  border-radius: 1rem !important;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+div.col-md-8.text-left button:hover {
+  color: var(--background);
+  background-color: var(--primary);
+}
+.col-md-3 > div > button {
+  border-color: var(--accent);
+}
+#div_formular_rezervare button:hover,
+.col-md-3 > div > button:hover,
+.col-md-3 > div > div.input-group button:hover {
+  background-color: var(--primary);
+  border-color: var(--accent);
+  scale: 1.05;
+}
+.col-md-3 > div > div.input-group {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: left;
+}
+.col-md-3 > div > div.input-group input.cate_camere {
+  margin-left: 5px !important;
+}
+input.cate_camere {
+  border-color: var(--primary);
+  border-style: solid;
+}
+.col-md-3 > div > div.input-group > * {
+  margin: 5px 0;
+}
+.col-md-3 > div > div.input-group button {
+  padding: 0.1rem !important;
+  border-color: var(--accent);
+}
+#ce_a_comandat,
+#div_formular_rezervare {
+  padding: 2rem;
+}
+#ce_a_comandat h4 {
+  color: var(--primary);
+  font-size: large;
+  margin-top: 15px;
+}
+.tip_camera_comanda {
+  font-size: small;
+}
+.pret_camera_comanda {
+  font-weight: bolder;
+  color: var(--primary);
+}
+.ocupare_camera_comanda {
+  font-style: italic;
+  font-size: small;
+}
+#div_pas_urmator button,
+.buton_pas_anterior {
+  background-color: var(--accent) !important;
+  border-color: var(--accent) !important;
+  transition: scale 150ms ease-in-out;
+}
+#div_pas_urmator button:hover,
+.buton_pas_anterior:hover {
+  background-color: var(--primary) !important;
+  border-color: var(--accent) !important;
+  scale: 1.05;
+}
+.portfolio-link {
+  color: var(--primary);
+  transition: color 150ms ease-in-out;
+}
+.portfolio-link:hover {
+  color: var(--accent);
+}
+.modal-body h3 {
+  margin-bottom: 10px;
+}
+.col-md-3 > strong {
+  color: var(--primary) !important;
+}
+#div_formular_rezervare h4 {
+  margin: 30px 0;
+  color: var(--primary);
+}
+#div_formular_rezervare button {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  transition: scale 150ms ease-in-out;
+  margin: 30px 0;
+}
+#div_formular_rezervare input:focus,
+#div_formular_rezervare select:focus,
+#div_formular_rezervare textarea:focus {
+  border-color: var(--accent) !important;
+}
