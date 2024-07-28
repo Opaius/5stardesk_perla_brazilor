@@ -16,7 +16,7 @@ button {
 }
 .col-md-3 > div > button,
 .col-md-3 > div > div.input-group button {
-  background-color: var(--accent);
+  background-color: var(--accent) !important;
   transition: scale 150ms ease-in-out;
 }
 .modal-body h3,
@@ -111,8 +111,8 @@ div.col-md-8.text-left button:hover {
 #div_formular_rezervare button:hover,
 .col-md-3 > div > button:hover,
 .col-md-3 > div > div.input-group button:hover {
-  background-color: var(--primary);
-  border-color: var(--accent);
+  background-color: var(--primary) !important;
+  border-color: var(--accent) !important;
   scale: 1.05;
 }
 .col-md-3 > div > div.input-group {
