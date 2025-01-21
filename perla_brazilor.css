@@ -7,7 +7,7 @@ button {
 .portfolio-item img {
   transition: opacity 0.2s ease-in-out;
 }
-.camera_formular img,
+.camera_formular img.img-fluid,
 .portfolio-item img {
   aspect-ratio: 16/9;
   object-fit: cover;
