@@ -78,7 +78,7 @@ td.in-range {
 .camera_formular {
   padding: 2rem !important;
 }
-.camera_formular img {
+.camera_formular img.img-fluid{
   border-radius: 1rem !important;
   height: 200px;
 }
